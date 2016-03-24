@@ -3,6 +3,8 @@ parse_git_branch() {
 }
 export PS1="\u@\h \w\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
+alias sbash='. ~/.bash_profile'
+
 alias pud=pushd
 alias pod=popd
 
