@@ -16,9 +16,9 @@ alias c=clear
 
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ....=../../..
-alias .....=../../../..
-alias ......=../../../../..
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 
 alias g=git
 alias ga='git add'
