@@ -28,8 +28,10 @@ alias gco='git checkout'
 alias gcob='git checkout -b'
 alias gc='git commit -v'
 alias 'gc!'='git commit -v --amend'
+
 function __gcmsg { git commit -m "$(git rev-parse --abbrev-ref HEAD): $1"; }
 alias gcmsg='__gcmsg'
+
 alias gd='git diff'
 alias gl='git pull origin'
 alias glc='git pull origin $(git rev-parse --abbrev-ref HEAD)'
